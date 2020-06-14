@@ -1,0 +1,8 @@
+Compiler Command: aoc -march=emulator device/matrix_mult.cl -o bin/matrix_mult.aocx -fp-relaxed -fpc -no-interleaving=default -board=s5_ref
+/home/prithvi/iiit/openCL/aocl_examples/matrix_mul_emulation_demo/matrix_mult/device/matrix_mult.cl:26:34: warning: declaring kernel argument with no 'restrict' may lead to low kernel performance
+                 __global float *A,
+                                 ^
+/home/prithvi/iiit/openCL/aocl_examples/matrix_mul_emulation_demo/matrix_mult/device/matrix_mult.cl:27:34: warning: declaring kernel argument with no 'restrict' may lead to low kernel performance
+                 __global float *B, 
+                                 ^
+2 warnings generated.
